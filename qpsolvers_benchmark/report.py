@@ -138,7 +138,9 @@ class Report:
         for solver, param in keys:
             row = {
                 "solver": [solver],
-                "parameter": [f"``{param}``"],
+                "parameter": [
+                    f"``{str(param) if isinstance(param, bool) else param}``"
+                ],
             }
             row.update(
                 {

@@ -8,12 +8,12 @@ dependencies:
     - osqp >= 0.6.2
     - pandas
     - pip
-    - proxsuite >= 0.2.7
+    - proxsuite >= 0.3.1
     - qpoases >= 3.2.0
     - qpsolvers >= 2.7.2
     - quadprog >= 0.1.11
-    - scs >= 3.2.2
     - tabulate
     - pip:
-        - highspy >= 1.1.2
+        - highspy >= 1.1.2.dev3
         - py-cpuinfo
+        - scs >= 3.2.2
